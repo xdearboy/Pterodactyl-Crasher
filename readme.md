@@ -8,8 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![Stars](https://img.shields.io/github/stars/xdearboy/Pterodactyl-Crasher?style=for-the-badge)]
-[![Forks](https://img.shields.io/github/forks/xdearboy/Pterodactyl-Crasher?style=for-the-badge)]
+[![Stars](https://img.shields.io/github/stars/xdearboy/Pterodactyl-Crasher?style=for-the-badge)]()
+[![Forks](https://img.shields.io/github/forks/xdearboy/Pterodactyl-Crasher?style=for-the-badge)]()
 
 </div>
 
