@@ -8,9 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/xdearboy/Pterodactyl-Crasher/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/xdearboy/Pterodactyl-Crasher/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![Stars](https://img.shields.io/github/stars/xdearboy/Pterodactyl-Crasher?style=for-the-badge)
+[![Forks](https://img.shields.io/github/forks/xdearboy/Pterodactyl-Crasher?style=for-the-badge)
 
 </div>
 
