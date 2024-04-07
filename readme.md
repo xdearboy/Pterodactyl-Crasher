@@ -1,6 +1,11 @@
 <p align="center">
+<<<<<<< HEAD
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://imgur.com/a/PYpGvg6" alt="Project logo"></a>
+=======
+  <a href="https://i.imgur.com/1UkJFTC.jpeg" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/1UkJFTC.jpeg" alt="Project logo"></a>
+>>>>>>> 07726ecaa0d830dec7a49d14fa5b97719a112a53
 </p>
 
 <h3 align="center">Pterodactyl Crasher</h3>
@@ -8,9 +13,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![Stars](https://img.shields.io/github/stars/xdearboy/Pterodactyl-Crasher?style=for-the-badge)]()
+[![Forks](https://img.shields.io/github/forks/xdearboy/Pterodactyl-Crasher?style=for-the-badge)]()
 
 </div>
 
