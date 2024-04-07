@@ -21,6 +21,7 @@
 
 ## 📝 Table of Contents
 
+<<<<<<< HEAD
 - [📝 Table of Contents](#-table-of-contents)
 - [🧐 О проекте ](#-о-проекте-)
 - [🏁 Getting Started ](#-getting-started-)
@@ -33,6 +34,17 @@
 - [⛏️ Built Using ](#️-built-using-)
 - [✍️ Authors ](#️-authors-)
 - [🎉 Acknowledgements ](#-acknowledgements-)
+=======
+- [О проекте](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
+>>>>>>> 39a4faca3ae25414379095b8dc0ec97033d2dc36
  
 ## 🧐 О проекте <a name = "about"></a>
 
