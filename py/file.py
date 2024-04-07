@@ -37,7 +37,7 @@ def display_status():
 
 
 def main():
-    print("ebuservera by fiuimwix")
+    print("github.com/xdearboy/Pterodactyl-Crasher \n Pterodactyl-Crasher")
     print("Режим: забивка всей памяти")
     print("Подготовка..")
 
@@ -47,7 +47,7 @@ def main():
         thread.start()
         threads.append(thread)
 
-    print("Начали нахуй!")
+    print("Ебанный рот, погнали нахуй!")
     status_thread = threading.Thread(target=display_status)
     status_thread.start()
 

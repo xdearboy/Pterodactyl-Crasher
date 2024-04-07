@@ -37,7 +37,7 @@ function uuidv4() {
 }
 
 async function main() {
-    console.log("ebuservera by fiuimwix");
+    console.log("github.com/xdearboy/Pterodactyl-Crasher \n Pterodactyl-Crasher");
     console.log("Режим: забивка всей памяти");
     console.log("Подготовка..");
 
