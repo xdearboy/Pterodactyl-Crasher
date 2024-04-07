@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://i.imgur.com/6wj0hh6.jpg" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+  <a href="https://i.imgur.com/1UkJFTC.jpeg" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/1UkJFTC.jpeg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Pterodactyl Crasher</h3>
