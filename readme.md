@@ -1,7 +1,6 @@
 <p align="center">
-<<<<<<< HEAD
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://imgur.com/a/PYpGvg6" alt="Project logo"></a>
+ <img width=200px height=200px src="https://i.imgur.com/1UkJFTC.jpeg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Pterodactyl Crasher</h3>
