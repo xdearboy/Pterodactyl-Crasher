@@ -19,9 +19,9 @@
     <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 Обзор
 
-- [📝 Table of Contents](#-table-of-contents)
+- [📝 Обзор](#-обзор)
 - [🧐 О проекте ](#-о-проекте-)
 - [🏁 Getting Started ](#-getting-started-)
   - [Installing](#installing)
