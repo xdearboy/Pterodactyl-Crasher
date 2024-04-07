@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-  <img width=200px height=200px src="https://imgur.com/a/PYpGvg6" alt="Project logo"></a>
+ <img width=200px height=200px src="https://i.imgur.com/1UkJFTC.jpeg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Pterodactyl Crasher</h3>
@@ -21,15 +21,18 @@
 
 ## 📝 Table of Contents
 
-- [О проекте](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+- [📝 Table of Contents](#-table-of-contents)
+- [🧐 О проекте ](#-о-проекте-)
+- [🏁 Getting Started ](#-getting-started-)
+  - [Installing](#installing)
+- [🔧 Running the tests ](#-running-the-tests-)
+  - [Break down into end to end tests](#break-down-into-end-to-end-tests)
+  - [And coding style tests](#and-coding-style-tests)
+- [🎈 Usage ](#-usage-)
+- [🚀 Deployment ](#-deployment-)
+- [⛏️ Built Using ](#️-built-using-)
+- [✍️ Authors ](#️-authors-)
+- [🎉 Acknowledgements ](#-acknowledgements-)
  
 ## 🧐 О проекте <a name = "about"></a>
 
@@ -37,15 +40,7 @@ Pterodactyl Crasher — это инструмент, который поможе
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
+С начало выбираем какой вам нужен язык, у нас в наличии - Java, Python, JavaScript. Выбираем какой есть. Смотри [deployment](#deployment) что бы посмотреть как запустить его на хостинге.
 
 ### Installing
 
