@@ -16,7 +16,7 @@
 ---
 
 <p align="center">
-  <img src="uu5pqYm.png" alt="Пример работы :)" width="20%"/>
+  <img src="uu5pqYm.png" alt="Пример работы :)" width="50%"/>
   <br>
   <em>Пример работы</em>
 </p>
