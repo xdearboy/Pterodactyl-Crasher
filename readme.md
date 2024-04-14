@@ -64,4 +64,5 @@ Pterodactyl Crasher — это инструмент, который поможе
 - [@xdearboy](https://github.com/xdearboy/) - Разработал скрипты. Javascript + Python.
 - [@noxcel](https://github.com/Nocxell) - Подал мне идею, Java.
 - [@vladdis](https://discord.com/invite/k-protect-community-public-925337010779078676) - Rust + Python скрипт для его запуска.
+- [@pm-kirill](https://github.com/PM-KIRILL) - Бульба Core-Nodes, заценил проект. 
 
