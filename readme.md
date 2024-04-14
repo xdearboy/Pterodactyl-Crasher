@@ -48,6 +48,7 @@ Pterodactyl Crasher — это инструмент, который поможе
 - Python
 - JavaScript
 - Java
+- Rust
 
 ## ✍️ Авторы <a name = "авторы"></a>
 
