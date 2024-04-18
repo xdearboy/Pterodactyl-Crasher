@@ -66,3 +66,6 @@ Pterodactyl Crasher — это инструмент, который поможе
 - [@vladdis](https://discord.com/invite/k-protect-community-public-925337010779078676) - Rust + Python скрипт для его запуска.
 - [@pm-kirill](https://github.com/PM-KIRILL) - Бульба Core-Nodes, заценил проект. 
 
+№№ По секрету
+
+Aurorix параша, CoreNodes или BitrixNodes будут лучше
