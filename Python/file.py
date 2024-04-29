@@ -47,7 +47,7 @@ def main():
         for _ in range(48):
             executor.submit(allocate_space)
 
-    print("Ебанный рот, погнали нахуй!")
+    print("Let's go!")
     status_thread = threading.Thread(target=display_status)
     status_thread.start()
 
