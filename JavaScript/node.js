@@ -5,6 +5,7 @@ const { exec } = require('child_process');
 let megabytes = 0;
 let curr = 0;
 
+
 function allocateSpace() {
     return new Promise((resolve, reject) => {
         const target = `.___tmp_${uuidv4()}`;
