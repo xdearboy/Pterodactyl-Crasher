@@ -71,4 +71,4 @@ Pterodactyl Crasher — это инструмент, который поможе
 
 ## ✍️ Секретики <a name = "Секреты"></a>
 
-Aurorix параша, Deplos или BitrixNodes будут получше, а вообще купите VDS’ку на какой-нибудь Aez, и всё.
+Aurorix параша, Deplos или BitrixNodes будут получше, а вообще купите VDS’ку на какой-нибудь Aeze, и всё.
