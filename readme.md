@@ -4,7 +4,7 @@
 </p>
 
 <h3 align="center">💥 Pterodactyl Crasher</h3>
-<h3 align="center">Проект дорабатывается Икданом.</h3>
+<h3 align="center">Проект дорабатывается мной и Ikdan.</h3>
 
 <div align="center">
 
