@@ -1,3 +1,7 @@
+<a href="https://qwins.co" rel="noopener">
+  <img src="https://i.imgur.com/IJyh5df.png" alt="qwins.co - наши спонсоры" />
+</a>
+
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://i.imgur.com/1UkJFTC.jpeg" alt="Project logo"></a>
