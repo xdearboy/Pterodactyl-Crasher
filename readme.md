@@ -1,7 +1,8 @@
 <p align="center">qwins.co - наши спонсоры</p>
 <a href="https://qwins.co" rel="noopener">
-  <img src="https://i.imgur.com/IJyh5df.png" alt="qwins.co - наши спонсоры" />
+  <img src="https://i.imgur.com/IJyh5df.png" alt="qwins.co - наши спонсоры" style="border-radius: 10px;" />
 </a>
+
 
 ---
 
