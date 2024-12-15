@@ -1,6 +1,6 @@
-<p align="center">qwins.co - наши спонсоры</p>
-<a href="https://qwins.co" rel="noopener">
-  <img src="https://i.imgur.com/IJyh5df.png" style="border-radius: 50px;" />
+<p align="center">play2go - наши спонсоры</p>
+<a href="https://new.play2go.cloud" rel="noopener">
+  <img src="https://i.imgur.com/7T4ivo6.jpeg" style="border-radius: 50px;" />
 </a>
 
 
